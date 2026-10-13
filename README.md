@@ -2,7 +2,7 @@
 
 Laboratoire Python de recherche sur un portefeuille Magnificent Seven et une poche tactique Nasdaq-100 à levier quotidien ×2. Développement dans VS Code ; code et noms de variables en anglais, documentation en français.
 
-**Statut v0.2 : signaux + pipeline quotidien Yahoo implémentés et testés sur fixtures. Le téléchargement réel nécessite un accès Yahoo fonctionnel ; l’environnement de développement a rencontré une limitation HTTP 429. Aucun moteur de backtest ni résultat de performance.**
+**Statut v0.2 : signaux + pipeline quotidien Yahoo implémentés et testés sur fixtures. Le téléchargement réel nécessite un accès Yahoo fonctionnel ; **
 
 **Pour installer cette mise à jour et télécharger les données : [guide du pipeline](docs/data_pipeline.md).**
 
