@@ -1,0 +1,8 @@
+[data]
+symbols = ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA", "QQQ", "QLD"]
+start = "2016-01-01"
+# end is exclusive; empty means today's date in New York (today excluded).
+end = ""
+output_dir = "data"
+calendar = "XNYS"
+# Calendar proxy for US equity/ETF daily sessions, not venue-specific execution.

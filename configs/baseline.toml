@@ -1,0 +1,7 @@
+# Parameters for the implemented signal only, not a backtest configuration.
+[signal]
+trend_window = 200
+vol_window = 60
+annualization = 252
+vol_threshold = 0.20
+qld_cap = 0.30
