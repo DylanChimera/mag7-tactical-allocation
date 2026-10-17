@@ -2,14 +2,13 @@
 
 Laboratoire Python de recherche sur un portefeuille Magnificent Seven et une poche tactique Nasdaq-100 à levier quotidien ×2. Développement dans VS Code ; code et noms de variables en anglais, documentation en français.
 
-**Statut v0.2 : signaux + pipeline quotidien Yahoo implémentés et testés sur fixtures. Le téléchargement réel nécessite un accès Yahoo fonctionnel ; l’environnement de développement a rencontré une limitation HTTP 429. Aucun moteur de backtest ni résultat de performance.**
+**Statut v0.2 : signaux + pipeline quotidien Yahoo implémentés et testés sur fixtures. Le téléchargement réel nécessite un accès Yahoo fonctionnel ; **
 
 **Pour installer cette mise à jour et télécharger les données : [guide du pipeline](docs/data_pipeline.md).**
 
 ## Question de recherche
 
-Une allocation dynamique à un ETF Nasdaq ×2 améliore-t-elle le rendement net à risque comparable face à une allocation permanente ? Les régimes observables, puis leurs transitions de Markov, apportent-ils une information supplémentaire ? Les variations des probabilités de marchés de prédiction améliorent-elles ensuite les décisions hors échantillon ?
-
+Une allocation dynamique à un ETF Nasdaq ×2 améliore-t-elle le rendement net à risque comparable face à une allocation permanente ? Une allocation dynamique sur tout le portefeuillle  utilisant un forecasting de return améliore-t-elle le rendement ?²²²
 On recherche des règles reproductibles, pas des points d'entrée et de sortie optimaux déterminés après coup.
 
 ## Périmètre initial
@@ -17,7 +16,7 @@ On recherche des règles reproductibles, pas des points d'entrée et de sortie o
 | Élément | Convention de recherche |
 |---|---|
 | Actions | AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA ; une seule classe Alphabet |
-| Cœur | 70 % cible, 10 % par entreprise lors du rééquilibrage mensuel |
+| Cœur | 70 % cible, 10 % par entreprise lors du rééquilibrage mensuel | porté à évoluer
 | Poche tactique | 30 % maximum, répartis entre QLD et liquidités |
 | Référence de signal | QQQ |
 | Décision | Après clôture ; exécution au plus tôt à l'ouverture suivante |
